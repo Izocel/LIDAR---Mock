@@ -2,7 +2,7 @@
 #include <LiquidCrystal.h>
 
 LiquidCrystal lcd(12, 11, 5, 4, 3, 2);  // setup LCD 4 bit mode
-int pulse = 1000000000000;                          // pulse size length in microseconds
+int pulse = 1;                          // pulse size length in microseconds
 int choice = 0;                         // select laser gun model type
 int lastchoice = 0;                     // recall last selection choice
 int fire;                               // trigger fire button
